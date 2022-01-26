@@ -1,64 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rural Bolívar - Contactenos</title>
-  </head>
-  <body>
-    <header>
-      <a href="../index.html"
-        ><img src="../src/img/logo.png" alt="logo_rural_bolivar" width="20%"
-      /></a>
-      <img src="../src/img/banner.jpg" alt="" width="400px" height="140px" />
-      <a href="../index.html"><img src="../src/img/micelaneas/home.png" alt="home"> Inicio</a>
-      <a href="secciones/contactenos.html"
-        ><img
-          align="center"
-          src="../src/img/micelaneas/contactenos.png"
-          alt="contactenos"
-          width="5%"
-        />Contactenos</a
-      >
-      <a href="socio/socios.html"
-        ><img
-          align="center"
-          src="../src/img/micelaneas/login.png"
-          alt="iniciar sesión"
-          width="5%"
-        />Iniciar Sesión</a
-      >
-    </header>
-    <section>
-      <br />
-      <form action="" method="post">
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" />
-        <br />
+<html lang="es">
 
-        <label for="apellido">Apellido</label>
-        <input type="text" id="apellido" />
-        <br />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../src/css/styles.css" />
+  <title>Rural Bolivar</title>
+</head>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" />
-        <br />
+<body>
+  <header id="header">
+    <div class="logo_container">
+      <a href="../index.html">
+        <img class="logo" src="../src/img/logo.png" alt="logo_rural_bolivar" />
+      </a>
+    </div>
+    <div class="banner">
+      <div class="banner_brand">
+        <img class="img_banner" src="../src/img/banner.jpg" alt="banner" />
+      </div>
+      <div class="main_nav">
+        <a href="../index.html"><img src="../src/img/micelaneas/home.png" alt="home"> Inicio</a>
+        <a href="contactenos.html">
+          <img src="../src/img/micelaneas/contactenos.png" alt="contactenos" />Contactenos
+        </a>
+        <a href="../socio/socios.html">
+          <img src="../src/img/micelaneas/login.png" alt="iniciar sesión" />
+          Iniciar Sesión</a>
+      </div>
+    </div>
+  </header>
 
-        <label for="comentario">Comentario</label>
-        <textarea name="" id="comentario" cols="30" rows="10"></textarea>
-        <br />
-        <input type="submit" value="Enviar" />
-        <input type="reset" value="Limpiar" />
+  <section class="info">
+    <nav class="secondary_nav">
+      <ul>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="predio.html">Predio</a></li>
+        <li><a href="documentos.html">Documentos</a></li>
+        <li><a href="actividades.html">Actividades</a></li>
+        <li><a href="exposiciones.html">Exposiciones</a></li>
+        <li>
+          <a href="comision_directiva.html">Comisión Directiva</a>
+        </li>
+        <li><a href="institucion.html">Institución</a></li>
+        <li><a href="ferias_remates.html">Feria y Remates</a></li>
+      </ul>
+    </nav>
+  </section>
+  <section class="title_page_section">
+  </section>
+  <section class="news_section">
+    <div class="contact_form">
+      <form action="#" method="post">
+        <div class="to">
+          <label for="to">Para:</label>
+          <select name="to" id="to">
+            <option value="gerencia@ruralbolivar.com">Gerencia</option>
+            <option value="secretaria@ruralbolivar.com">Secretaria</option>
+            <option value="ferias.remates@ruralbolivar.com">Ferias y Remates</option>
+            <option value="controllechero@ruralbolivar.com">Control Lechero</option>
+          </select>
+        </div>
+        <div class="from">
+          <label for="from">De</label>
+          <input type="mail">
+        </div>
+        <div class="message">
+          <label class="lbl_mensaje" for="message">Mensaje</label>
+          <textarea name="message" id="message" cols="30" rows="30"></textarea>
+        </div>
+        <div class="frm_actions">
+          <button><a href="under_construction.html">Enviar</a></button>
+        </div>
       </form>
-    </section>
-    <footer>
-      <img src="../src/img/redes/copy.png" alt="copyright" width="9%" />
-      <img src="../src/img/redes/face.png" alt="facebook" width="5%" />
-      <img src="../src/img/redes/insta.png" alt="instagram" width="5%" />
-      <img src="../src/img/redes/linkedin.png" alt="linkedin" width="8%" />
-      <img src="../src/img/redes/telegram.png" alt="telegram" width="5%" />
-      <img src="../src/img/redes/twitter.png" alt="twitter" width="8%" />
-    </footer>
-  </body>
+    </div>
+  </section>
+  <footer>
+    <img class="footer_img" src="../src/img/redes/copy.png" alt="copyright" />
+    <img class="footer_img" src="../src/img/redes/face.png" alt="facebook" />
+    <img class="footer_img" src="../src/img/redes/insta.png" alt="instagram" />
+    <img class="footer_img linkedin" src="../src/img/redes/linkedin.png" alt="linkedin" />
+    <img class="footer_img" src="../src/img/redes/telegram.png" alt="telegram" />
+    <img class="footer_img twitter" src="../src/img/redes/twitter.png" alt="twitter" />
+  </footer>
+</body>
+
 </html>
