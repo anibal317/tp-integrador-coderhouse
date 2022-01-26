@@ -1,0 +1,114 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100;1,700&display=swap');
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: content-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+}
+
+/* General Styles */
+
+a,
+a:visited,
+a:hover {
+    color: white;
+}
+
+
+/* Header */
+
+#header {
+    background-color: #35858B;
+    display: flex;
+}
+
+.logo_container,
+.main_nav {
+    position: relative;
+    align-self: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.banner {
+    display: flex;
+    align-self: center;
+
+}
+
+.img_banner {
+    align-self: stretch;
+    width: 400px;
+    height: 140px;
+}
+
+.main_nav {
+    position: relative;
+    text-align: right;
+    color: white;
+    margin-right: 5px;
+}
+
+.main_nav img {
+    padding-right: 3px;
+    width: 5%;
+    vertical-align: middle;
+}
+
+
+/* Nav Section*/
+
+.secondary_nav {
+    display: flex;
+    font-weight: 700;
+    background-color: #072227;
+}
+
+.secondary_nav ul {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    margin: auto;
+    max-width: 1000px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.secondary_nav a:hover {
+    color: #000;
+}
+
+.secondary_nav li:hover {
+    background-color: #4FBDBA;
+}
+
+article {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+
+/* Footer */
+
+.footer_img {
+    width: 5%;
+}
+.linkedin{
+    width: 7.5%;
+}
+.twitter{
+    width: 7.5%;
+
+}
