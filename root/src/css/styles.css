@@ -206,6 +206,19 @@ footer {
     .news_section{
         grid-area: news_section;
     }
+    .contact_form{
+        grid-area: contact_form;
+        align-self: center;
+    }
+    .login{
+        grid-area: login;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img_login{
+        margin: 0 auto;
+    }
     .main_nav a{
         display: flex;
         flex-direction: row;
@@ -232,5 +245,13 @@ footer {
     }
     .footer_img {
         width: 5%;
+    }
+    img{
+        width: 50%;
+        height: auto;
+        align-self: center;
+    }
+    iframe{
+        margin: 0 auto;
     }
 }
