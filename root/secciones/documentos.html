@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Icons & styles -->
-    <link rel="stylesheet" href="src/css/styles.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../src/css/styles.css" />
   
     <!-- Bootstraps Scripts -->
     <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -26,58 +26,80 @@
   </head>
 
 <body>
-  <header id="header">
-    <div class="logo_container">
-      <a href="../index.html">
-        <img class="logo" src="../src/img/logo.png" alt="logo_rural_bolivar" />
-      </a>
-    </div>
-    <div class="banner">
-      <div class="banner_brand">
-        <img class="img_banner" src="../src/img/banner.jpg" alt="banner" />
+  <header id="header" class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <a class="navbar-brand" href="#"><img class="w-50 p-3" src="../src/img/logo.png" alt="logo_rural_bolivar" /></a>
+      <div id="banner-nav" class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse position-relative" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 position-absolute top-100 start-50 translate-middle">
+            <li class="nav-item ">
+              <a class="nav-link" aria-current="page" href="../index.html"><i class="fas fa-home"></i>Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactenos.html"><i class="fas fa-envelope"></i>Contactenos</a>
+            </li>
+            <li class="nav-item">
+              <a href="../socio/socios.html" class="nav-link"><i class="fas fa-sign-in-alt"></i>Login</a>
+            </li>
+
+          </ul>
+        </div>
       </div>
-      <div class="main_nav">
-        <a href="../index.html"><img src="../src/img/micelaneas/home.png" alt="home"> Inicio</a>
-        <a href="contactenos.html">
-          <img src="../src/img/micelaneas/contactenos.png" alt="contactenos" />Contactenos
-        </a>
-        <a href="../socio/socios.html">
-          <img src="../src/img/micelaneas/login.png" alt="iniciar sesión" />
-          Iniciar Sesión</a>
-      </div>
-    </div>
   </header>
 
-  <section class="info">
-    <nav class="secondary_nav">
-      <ul>
-        <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="predio.html">Predio</a></li>
-        <li><a href="documentos.html">Documentos</a></li>
-        <li><a href="actividades.html">Actividades</a></li>
-        <li><a href="exposiciones.html">Exposiciones</a></li>
-        <li>
-          <a href="comision_directiva.html">Comisión Directiva</a>
-        </li>
-        <li><a href="institucion.html">Institución</a></li>
-        <li><a href="ferias_remates.html">Feria y Remates</a></li>
-      </ul>
-    </nav>
+  <!-- Sections nav -->
+  <section class="container-fluid">
+    <ul class="nav bg-dark d-flex justify-content-between">
+      <li class="nav-item ">
+        <a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="predio.html">Predio</a></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="documentos.html">Documentos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="actividades.html">Actividades</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="exposiciones.html">Exposiciones</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="comision_directiva.html">Comisión Directiva</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="institucion.html">Institución</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ferias_remates.html">Feria y Remates</a>
+      </li>
+    </ul>
   </section>
-  <section class="title_page_section">
-    <h1>Documentos</h1>
+  
+  <!-- Section Title -->
+  <section class="conteiner-fluid">
+    <h1 class="text-center">Documentos</h1>
   </section>
-  <section class="news_section ">
-    <img class="under" src="../src/img/micelaneas/under_construction.jpg" alt="under_construction">
+
+  <!-- Info -->
+  <section class="conteiner-fluid row">
+    <img class="img align-items-center" src="../src/img/micelaneas/under_construction.jpg" alt="under_construction">
   </section>
-  <footer>
-    <img class="footer_img" src="../src/img/redes/copy.png" alt="copyright" />
-    <img class="footer_img" src="../src/img/redes/face.png" alt="facebook" />
-    <img class="footer_img" src="../src/img/redes/insta.png" alt="instagram" />
-    <img class="footer_img linkedin" src="../src/img/redes/linkedin.png" alt="linkedin" />
-    <img class="footer_img" src="../src/img/redes/telegram.png" alt="telegram" />
-    <img class="footer_img twitter" src="../src/img/redes/twitter.png" alt="twitter" />
-  </footer>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-dark my-5">
+      <img class="footer_img" src="../src/img/redes/copy.png" alt="copyright" />
+      <img class="footer_img" src="../src/img/redes/face.png" alt="facebook" />
+      <img class="footer_img" src="../src/img/redes/insta.png" alt="instagram" />
+      <img class="footer_img linkedin" src="../src/img/redes/linkedin.png" alt="linkedin" />
+      <img class="footer_img" src="../src/img/redes/telegram.png" alt="telegram" />
+      <img class="footer_img twitter" src="../src/img/redes/twitter.png" alt="twitter" />
+    </footer>
 </body>
 
 </html>
