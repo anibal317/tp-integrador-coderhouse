@@ -82,19 +82,37 @@ h1 {
     -webkit-transform: rotate(360deg);
 }
 
+.actividades,
+.comision_directiva,
+.servicios {
+    height: 350px;
+}
+
+.contactenos {
+    height: 400px;
+}
+.galery{
+    width: auto;
+    margin: 0 auto;
+}
+
+.predio_info{
+    width: 500px;
+    margin: 0 auto;
+}
 .predio {
-    width: 600px;
-    margin-left: 25%;
-    margin-bottom: -50px;
+    height: 350px;
+    margin-bottom: 4px;
+    
 }
 
 .section_info {
-    height: 260px;
+    height: 355px;
 }
 
 .history {
-    margin: 0 auto;
-    margin-left: 1%;
+    width: auto;
+
 }
 
 .img_login {
