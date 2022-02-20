@@ -1,0 +1,143 @@
+@import "_variables.scss";
+
+#banner-nav {
+    position: relative;
+}
+
+a.nav-link,
+.btn a {
+    color: $blanco;
+}
+
+ul.navbar-nav {
+    li.nav-item {
+        a.nav-link {
+            color: $blanco;
+        }
+    }
+}
+
+i.fass {
+    color: black;
+}
+
+.info {
+    margin-left: .2%;
+}
+
+.form {
+    margin: 0 auto;
+}
+
+textarea {
+    height: 120px;
+}
+
+.btn {
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+.img {
+    margin: 0 auto;
+    width: 450px;
+}
+
+.form_login {
+    margin-top: 3%;
+}
+
+.form {
+    height: 290px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.news {
+    width: 400px;
+    align-self: flex-end;
+}
+
+.iframe {
+    height: 300px;
+    align-self: flex-end;
+    margin-right: 35px;
+}
+
+.animation {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+
+}
+
+.animation:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px $rojo;
+    -webkit-box-shadow: 0px 0px 15px 15px $naranja;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.actividades,
+.comision_directiva,
+.servicios {
+    height: 350px;
+}
+
+.contactenos {
+    height: 400px;
+}
+.galery{
+    width: auto;
+    margin: 0 auto;
+}
+
+.predio_info{
+    width: 500px;
+    margin: 0 auto;
+}
+.predio {
+    height: 350px;
+    margin-bottom: 4px;
+    
+}
+
+.section_info {
+    height: 355px;
+}
+
+.history {
+    width: auto;
+
+}
+
+.img_login {
+    width: 20%;
+    height: 30%;
+    margin-right: -300px;
+}
+
+
+.institucional {
+    margin: 0 auto;
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer_img {
+    width: 2%;
+}
+
+.under {
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
