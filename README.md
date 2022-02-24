@@ -9,3 +9,7 @@ Se subirá en la primera etapa los mocks realizados hasta el momento, conjuntame
 Sólo tendrá las secciones principales con algo de ccs aplicado
 
 #Ir al sitio --> [Rural Bolívar](https://anibal317.github.io/tp-integrador-coderhouse/root/)
+
+
+
+Created by: Jorge A. Sardón
