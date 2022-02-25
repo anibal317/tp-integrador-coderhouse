@@ -1,10 +1,19 @@
+.form, .img, .galery, .predio_info, .institucional {
+  margin: 0 auto;
+}
+
 #banner-nav {
   position: relative;
 }
 
 a.nav-link,
-.btn a {
+a {
   color: white;
+}
+
+.btn {
+  margin-top: 2%;
+  margin-left: 20%;
 }
 
 ul.navbar-nav li.nav-item a.nav-link {
@@ -20,29 +29,19 @@ i.fass {
 }
 
 .form {
-  margin: 0 auto;
+  height: 290px;
 }
 
 textarea {
   height: 120px;
 }
 
-.btn {
-  margin-top: 2%;
-  margin-left: 20%;
-}
-
 .img {
-  margin: 0 auto;
   width: 450px;
 }
 
 .form_login {
   margin-top: 3%;
-}
-
-.form {
-  height: 290px;
 }
 
 h1 {
@@ -83,18 +82,34 @@ h1 {
   height: 350px;
 }
 
+.actividades_title {
+  color: red;
+}
+
+.comision_title {
+  color: orange;
+}
+
+.contactenos_title {
+  background: #ec731e;
+  color: yellow;
+}
+
+.documentos_title {
+  background: #ec731e;
+  color: green;
+}
+
 .contactenos {
   height: 400px;
 }
 
 .galery {
   width: auto;
-  margin: 0 auto;
 }
 
 .predio_info {
   width: 500px;
-  margin: 0 auto;
 }
 
 .predio {
@@ -117,7 +132,6 @@ h1 {
 }
 
 .institucional {
-  margin: 0 auto;
   width: 50%;
 }
 
