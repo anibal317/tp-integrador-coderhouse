@@ -1,12 +1,19 @@
-@import "_variables.scss";
+@import "_variables";
+@import "_mixin";
+@import "_extends";
 
 #banner-nav {
     position: relative;
 }
 
 a.nav-link,
-.btn a {
+a {
     color: $blanco;
+}
+
+.btn {
+    margin-top: 2%;
+    margin-left: 20%;
 }
 
 ul.navbar-nav {
@@ -26,29 +33,22 @@ i.fass {
 }
 
 .form {
-    margin: 0 auto;
+    @extend %margin_center;
+    height: 290px;
+
 }
 
 textarea {
     height: 120px;
 }
 
-.btn {
-    margin-top: 2%;
-    margin-left: 20%;
-}
-
 .img {
-    margin: 0 auto;
+    @extend %margin_center;
     width: 450px;
 }
 
 .form_login {
     margin-top: 3%;
-}
-
-.form {
-    height: 290px;
 }
 
 h1 {
@@ -88,22 +88,41 @@ h1 {
     height: 350px;
 }
 
+.actividades_title {
+    color: map-get($mapaColores, actividades_title)
+}
+
+.comision_title {
+    color: map-get($mapaColores, comision_title)
+}
+
+.contactenos_title {
+    @include fondo($naranja, map-get($mapaColores, contactenos_title))
+}
+
+.documentos_title {
+    @include fondo($naranja, map-get($mapaColores, documentos_title))
+}
+
 .contactenos {
     height: 400px;
 }
-.galery{
+
+.galery {
     width: auto;
-    margin: 0 auto;
+    @extend %margin_center;
+
 }
 
-.predio_info{
+.predio_info {
     width: 500px;
-    margin: 0 auto;
+    @extend %margin_center;
 }
+
 .predio {
     height: 350px;
     margin-bottom: 4px;
-    
+
 }
 
 .section_info {
@@ -123,7 +142,8 @@ h1 {
 
 
 .institucional {
-    margin: 0 auto;
+    @extend %margin_center;
+
     width: 50%;
 }
 
