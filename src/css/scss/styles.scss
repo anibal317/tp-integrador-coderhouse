@@ -46,8 +46,8 @@ textarea {
     width: 450px;
 }
 
-.login{
-    height: 405px;
+.login {
+    height: 365px;
 }
 
 .form_login {
@@ -65,8 +65,6 @@ h1 {
 
 .institucional {
     @extend %marginCenter;
-    // margin: 0 auto;
-    width: 500px;
     padding-bottom: 20px;
 }
 
@@ -76,30 +74,38 @@ h1 {
     margin-right: 35px;
 }
 
-.animation {
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-
+.img_servicios,
+.img_actividades {
+    margin-top: 15px;
+    height: 50%;
+    align-self: center;
+    align-content: center;
 }
 
 .animation:hover {
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    box-shadow: 0px 0px 15px 15px $rojo;
-    -webkit-box-shadow: 0px 0px 15px 15px $naranja;
-    transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
+    filter: opacity(.5);
 }
 
 .actividades,
-.comision_directiva,
-.servicios {
+.comision_directiva {
     height: 415px;
 }
 
 .actividades_title {
     color: map-get($mapaColores, actividades_title)
+}
+
+.comision_directiva {
+    height: 365px;
+}
+
+.actividades {
+    height: 365px;
+}
+
+.card {
+    width: 430px;
+    height: 405px;
 }
 
 .comision_title {
@@ -114,8 +120,12 @@ h1 {
     @include fondo($naranja, map-get($mapaColores, documentos_title))
 }
 
+.servicios {
+    height: 365px;
+}
+
 .contactenos {
-    height: 400px;
+    height: 365px;
 }
 
 .galery {
@@ -124,21 +134,22 @@ h1 {
 }
 
 .predio_info {
-    width: 500px;
-    height: 410px;
+    height: 365px;
     @extend %marginCenter;
 }
 
 .predio {
-    height: 350px;
+    @extend %marginCenter;
+    width: 600px;
+    height: 400px;
 }
 
 .section_info {
-    height: auto;
+    height: 366px;
 }
 
-.history {
-    width: auto;
+.about_us {
+    height: 365px;
 }
 
 .img_login {
@@ -148,11 +159,13 @@ h1 {
 }
 
 footer {
+    margin-top: 3%;
     text-align: center;
 }
 
 .footer_img {
-    width: 2%;
+    padding-right: 15px;
+    width: 3.5%;
 }
 
 .under {

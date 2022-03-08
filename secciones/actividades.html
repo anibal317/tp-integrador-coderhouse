@@ -10,6 +10,10 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Animaciones css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
   <!-- Icons & styles -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -50,7 +54,6 @@
             <li class="nav-item">
               <a href="../socio/socios.html" class="nav-link"><i class="fas fa-sign-in-alt"></i>Login</a>
             </li>
-
           </ul>
         </div>
       </div>
@@ -93,16 +96,30 @@
 
   <!-- Info -->
   <section class="container actividades">
-    <div class="row">
-      <article class="col">
-        <img class="animation" src="../src/img/actividades/hockey_logo.png" alt="hockey">
-      </article>
-      <article class="col">
-        <img class="animation" src="../src/img/actividades/rugby_logo.jpg" alt="rugby">
-      </article>
-      <article class="col">
-        <img class="animation" src="../src/img/actividades/softball_logo.jpg" alt="softball">
-      </article>
+    <div class="row justify-content-between">
+      <div class="card">
+        <img class="img_actividades animation" src="../src/img/actividades/hockey_logo.png" alt="hockey">
+        <div class="card-body">
+          <p class="card-text">Deporte muy antiguo que lo practicaba gente de alto estatus social, aunque no se conoce
+            su verdadero origen. Se tienen dibujos de dos personas utilizando palos con una pelota en el Antiguo Egipto.
+            También, existe un relieve de la Edad Media donde puede verse personas jugando con palos y pelotas.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="img_actividades animation" src="../src/img/actividades/rugby_logo.jpg" alt="rugby">
+        <div class="card-body">
+          <p class="card-text">Aunque la presión física extrema está presente sobre el terreno de juego en todo momento,
+            jugadores y árbitros deben saber dónde está el límite. En ningún momento puede buscarse hacer daño de manera
+            voluntaria o maliciosa.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="img_actividades animation" src="../src/img/actividades/softball_logo.jpg" alt="softball">
+        <div class="card-body">
+          <p class="card-text">Modalidad deportiva donde juegan diez personas en una cancha o desped el cual
+            contiene además, una parte de tierra conocida con el nombre de diamante.</p>
+        </div>
+      </div>
     </div>
   </section>
 
