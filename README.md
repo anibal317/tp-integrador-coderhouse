@@ -13,3 +13,4 @@ Sólo tendrá las secciones principales con algo de ccs aplicado
 
 
 Created by: Jorge A. Sardón
+Linkedin: https://www.linkedin.com/in/jorgesardon/
