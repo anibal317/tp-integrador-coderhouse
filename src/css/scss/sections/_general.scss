@@ -47,13 +47,13 @@ h1 {
 }
 
 .iframe {
-    height: 300px;
+    height: auto;
     align-self: flex-start;
     margin-right: 35px;
 }
 
 .section_info {
-    height: 366px;
+    height: auto;
 }
 
 .galery {
@@ -80,12 +80,14 @@ i.fass {
 footer {
     margin-top: 3%;
     text-align: center;
+
+    .footer_img {
+        padding-right: 15px;
+        width: 7.5%;
+    }
+
 }
 
-.footer_img {
-    padding-right: 15px;
-    width: 3.5%;
-}
 
 
 //Images
