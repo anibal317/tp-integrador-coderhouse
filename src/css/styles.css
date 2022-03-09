@@ -52,7 +52,7 @@ h1 {
 }
 
 .iframe {
-  height: auto;
+  height: 500px;
   -ms-flex-item-align: start;
       align-self: flex-start;
   margin-right: 35px;
@@ -85,7 +85,7 @@ footer {
 
 footer .footer_img {
   padding-right: 15px;
-  width: 7.5%;
+  width: 5.5%;
 }
 
 .img {
