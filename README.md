@@ -8,7 +8,7 @@ Elñ objetivo de este proyecto es tener la primera idea del sitio, a corde se va
 Se subirá en la primera etapa los mocks realizados hasta el momento, conjuntamente con las primeras secciones de la institución.
 Sólo tendrá las secciones principales con algo de ccs aplicado
 
-#Ir al sitio --> [Rural Bolívar](https://anibal317.github.io/tp-integrador-coderhouse/root/)
+#Ir al sitio --> [Rural Bolívar](https://anibal317.github.io/tp-integrador-coderhouse/)
 
 
 
