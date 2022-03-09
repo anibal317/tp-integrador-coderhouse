@@ -1,0 +1,7 @@
+.documentos_title {
+    @include fondo($naranja, map-get($mapaColores, documentos_title))
+}
+
+.info {
+    margin-left: .2%;
+}

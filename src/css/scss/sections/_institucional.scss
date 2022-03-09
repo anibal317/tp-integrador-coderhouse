@@ -1,0 +1,8 @@
+.about_us {
+    height: 365px;
+}
+
+.institucional {
+    @extend %marginCenter;
+    padding-bottom: 20px;
+}

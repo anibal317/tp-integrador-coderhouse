@@ -1,0 +1,11 @@
+.contactenos {
+    height: 365px;
+}
+
+.contactenos_title {
+    @include fondo($naranja, map-get($mapaColores, contactenos_title))
+}
+
+textarea {
+    height: 120px;
+}
