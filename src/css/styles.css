@@ -1,4 +1,4 @@
-.galery, .form, .img, .institucional, .predio_info, .predio {
+.galery, .form, .img, .about_us .institucional, .predio_info, .predio_info .predio {
   margin: 0 auto !important;
 }
 
@@ -52,14 +52,14 @@ h1 {
 }
 
 .iframe {
-  height: 300px;
+  height: auto;
   -ms-flex-item-align: start;
       align-self: flex-start;
   margin-right: 35px;
 }
 
 .section_info {
-  height: 366px;
+  height: auto;
 }
 
 .galery {
@@ -83,9 +83,9 @@ footer {
   text-align: center;
 }
 
-.footer_img {
+footer .footer_img {
   padding-right: 15px;
-  width: 3.5%;
+  width: 7.5%;
 }
 
 .img {
@@ -102,7 +102,11 @@ footer {
 }
 
 .contactenos {
-  height: 365px;
+  height: auto;
+}
+
+.contactenos textarea {
+  height: 120px;
 }
 
 .contactenos_title {
@@ -110,29 +114,25 @@ footer {
   color: yellow;
 }
 
-textarea {
-  height: 120px;
+.login {
+  height: auto;
 }
 
-.form_login {
+.login .form_login {
   margin-top: 5%;
 }
 
-.img_login {
+.login .img_login {
   width: 20%;
   height: 30%;
   margin-right: -300px;
 }
 
-.login {
-  height: 365px;
-}
-
 .about_us {
-  height: 365px;
+  height: auto;
 }
 
-.institucional {
+.about_us .institucional {
   padding-bottom: 20px;
 }
 
@@ -148,20 +148,20 @@ textarea {
 }
 
 .predio_info {
-  height: 365px;
+  height: auto;
 }
 
-.predio {
+.predio_info .predio {
   width: 600px;
   height: 400px;
 }
 
 .servicios {
-  height: 365px;
+  height: auto;
 }
 
 .comision_directiva {
-  height: 365px;
+  height: auto;
 }
 
 .comision_title {
@@ -169,7 +169,7 @@ textarea {
 }
 
 .actividades {
-  height: 365px;
+  height: auto;
 }
 
 .actividades_title {
