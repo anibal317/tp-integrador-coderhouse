@@ -1,0 +1,95 @@
+//Header 
+#banner-nav {
+    position: relative;
+}
+
+.btn {
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+a {
+    color: $blanco !important;
+}
+
+
+
+//Body
+.img_servicios,
+.img_actividades {
+    margin-top: 15px;
+    height: 50%;
+    align-self: center;
+    align-content: center;
+}
+
+.animation:hover {
+    filter: opacity(.5);
+}
+
+.card {
+    width: 430px;
+    height: 405px;
+}
+
+.actividades,
+.comision_directiva {
+    height: 415px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.news {
+    width: 400px;
+    align-self: flex-end;
+}
+
+.iframe {
+    height: 300px;
+    align-self: flex-start;
+    margin-right: 35px;
+}
+
+.section_info {
+    height: 366px;
+}
+
+.galery {
+    width: 70%;
+    @extend %marginCenter;
+}
+
+img.w-100 {
+    margin-bottom: 5px !important;
+}
+
+//Forms
+.form {
+    @extend %marginCenter;
+    height: 290px;
+}
+
+
+//Footer
+i.fass {
+    color: black;
+}
+
+footer {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.footer_img {
+    padding-right: 15px;
+    width: 3.5%;
+}
+
+
+//Images
+.img {
+    @extend %marginCenter;
+    width: 450px;
+}

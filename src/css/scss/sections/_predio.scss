@@ -1,0 +1,10 @@
+.predio_info {
+    height: 365px;
+    @extend %marginCenter;
+}
+
+.predio {
+    @extend %marginCenter;
+    width: 600px;
+    height: 400px;
+}

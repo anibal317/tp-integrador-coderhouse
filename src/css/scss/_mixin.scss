@@ -1,4 +1,4 @@
-@mixin fondo($fondo,$letra) {
+@mixin fondo($fondo, $letra) {
     background: $fondo;
     color: $letra;
- }
+}
