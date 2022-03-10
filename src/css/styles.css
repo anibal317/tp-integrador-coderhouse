@@ -90,6 +90,12 @@ footer .footer_img {
   width: 5.5%;
 }
 
+@media (max-width: 375px) {
+  .footer_img {
+    width: 15% !important;
+  }
+}
+
 .img {
   width: 450px;
 }
